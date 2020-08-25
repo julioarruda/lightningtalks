@@ -15,4 +15,4 @@ jobs:
       - name: The Good Place Action
         uses: jayehernandez/the-good-place@v1
         with:
-          repo-token: e342de3aef6e9ebca10006eaef107bc601abef2e
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
